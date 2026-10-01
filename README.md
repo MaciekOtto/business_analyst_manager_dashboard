@@ -1,16 +1,12 @@
-# 📊 Business Analyst Manager Dashboard
-
-🇵🇱 [Polski](#-polski) | 🇬🇧 [English](#-english)
-
-![Dashboard preview](images/dashboard.png)
+# Business Analyst Manager Dashboard
 
 ---
 
-## 🇵🇱 Polski
+## 🇵🇱
 
 ### Opis projektu
 
-Interaktywny kokpit menedżerski dla stanowiska **Business Analyst Manager** – osoby odpowiedzialnej za zarządzanie zespołem analityków biznesowych i nadzór nad projektami analitycznymi. Kokpit pozwala w kilka sekund ocenić efektywność zespołu, terminowość projektów, jakość danych oraz zadowolenie interesariuszy, bez przeglądania szczegółowych raportów operacyjnych.
+Interaktywny kokpit menedżerski dla stanowiska **Business Analyst Manager** - osoby odpowiedzialnej za zarządzanie zespołem analityków biznesowych i nadzór nad projektami analitycznymi. Kokpit pozwala w kilka sekund ocenić efektywność zespołu, terminowość projektów, jakość danych oraz zadowolenie interesariuszy, bez przeglądania szczegółowych raportów operacyjnych.
 
 Projekt powstał w ramach studiów. Opiera się na **syntetycznie wygenerowanym zbiorze danych**, który odzwierciedla realistyczne środowisko pracy zespołu analitycznego.
 
@@ -57,23 +53,8 @@ Systemy zarządzania projektami (np. Jira, Azure DevOps), systemy ERP (np. SAP) 
 ### Stos technologiczny
 
 - Power BI Desktop (model danych, miary DAX, wizualizacje)
-- Syntetyczny zbiór danych (CSV/Excel)
+-  Syntetyczny zbiór danych (CSV/Excel)
 
-### Struktura repozytorium
-
-```
-├── README.md
-├── dashboard/        # plik .pbix
-├── data/             # syntetyczny zbiór danych
-├── images/           # zrzuty ekranu
-└── docs/             # pełny opis kokpitu (PDF)
-```
-
-### Jak uruchomić
-
-1. Pobierz repozytorium.
-2. Otwórz plik `.pbix` z folderu `dashboard/` w Power BI Desktop.
-3. W razie potrzeby zaktualizuj ścieżkę do źródła danych (*Transform data → Data source settings*).
 
 ### Autor
 
@@ -81,11 +62,11 @@ Systemy zarządzania projektami (np. Jira, Azure DevOps), systemy ERP (np. SAP) 
 
 ---
 
-## 🇬🇧 English
+## English
 
 ### Project overview
 
-An interactive management dashboard for a **Business Analyst Manager** – a role responsible for leading a team of business analysts and overseeing analytical projects. The dashboard lets the manager assess team efficiency, project timeliness, data quality and stakeholder satisfaction within seconds, without digging through detailed operational reports.
+An interactive management dashboard for a **Business Analyst Manager** - a role responsible for leading a team of business analysts and overseeing analytical projects. The dashboard lets the manager assess team efficiency, project timeliness, data quality and stakeholder satisfaction within seconds, without digging through detailed operational reports.
 
 The project was created as part of my university studies and is based on a **synthetically generated dataset** that mimics a realistic analytics team environment.
 
@@ -132,22 +113,6 @@ Project management tools (e.g. Jira, Azure DevOps), ERP systems (e.g. SAP) for f
 
 - Power BI Desktop (data model, DAX measures, visuals)
 - Synthetic dataset (CSV/Excel)
-
-### Repository structure
-
-```
-├── README.md
-├── dashboard/        # .pbix file
-├── data/             # synthetic dataset
-├── images/           # screenshots
-└── docs/             # full dashboard description (PDF)
-```
-
-### How to run
-
-1. Clone or download the repository.
-2. Open the `.pbix` file from `dashboard/` in Power BI Desktop.
-3. If needed, update the data source path (*Transform data → Data source settings*).
 
 ### Author
 
